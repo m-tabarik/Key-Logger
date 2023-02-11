@@ -81,7 +81,8 @@ def sysinformation():
             host = socket.gethostname()
             IPaddr = socket.gethostbyname(host)
             try:
-                publicIP =get("https://api.ipify.org").txt
+                # use suitable api for IP but It'll still work without getting the IP
+                publicIP =get("https://url-api-to-get-ip").txt
                 l.write("public  IP Address : "+publicIP)
             except Exception:
                 l.write(" couldn't get public IP"+'\n')
