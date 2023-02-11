@@ -17,5 +17,7 @@ The code uses the pynput library to capture key presses and releases, and the re
 
 It's worth noting that keyloggers can be used for malicious purposes, such as stealing sensitive information or spying on users. Therefore, it is important to use keyloggers only for legitimate purposes and with proper authorization.
 
+**Server side config**
+In index.php it checks for file extension, file size and upload it to the destination.
 
 Contact me on linkedin: https://www.linkedin.com/in/mtabarikasif/
