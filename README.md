@@ -1,6 +1,5 @@
 # Key-Logger
-A python Key Logger 
-The basic implementation of a keylogger using Python. A keylogger is a type of software or hardware device that is designed to monitor and record all the keystrokes made on a computer or a device. But it can get a lot more than just the keys.
+The implementation of a keylogger using Python. A keylogger is a type of software or hardware device that is designed to monitor and record all the keystrokes made on a computer or a device. But it can get a lot more than just the keys. **Next version will be self healing and self replicating.**
 
 The code uses the pynput library to capture key presses and releases, and the requests library to upload the collected data to a server. The keylogger has the following functionalities:
 
