@@ -61,6 +61,7 @@ def write(keys):
 
 
 def release(key):
+#     If esc is pressed exit the loop
     if key == Key.esc:
         return False
 
