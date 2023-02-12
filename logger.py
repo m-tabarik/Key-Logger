@@ -144,6 +144,7 @@ def delete_files(file_list):
         try:
             os.remove(file)
         except:
+#             if file creation was successfull it will be an exception
             print("error deleting the files")
 
 
