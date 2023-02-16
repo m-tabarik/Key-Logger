@@ -11,7 +11,7 @@ The code uses the pynput library to capture key presses and releases, and the re
 
 **Screenshot Capture:** The code takes a screenshot of the computer screen and saves it as a PNG file. It uses the PIL library to capture the screenshot.
 
-**File Upload:** The code uploads the collected data (keylogs, system information, clipboard data, and screenshot) to a server using the requests library. The uploaded files are sent to the URL specified in the URL variable in the upload_files() function. **SEE INDEX.PHP FILE FOR SERVER SIDE CONFIGURATIONS**
+**File Upload:** The code uploads the collected data (keylogs, system information, clipboard data, and screenshot) to a server using the requests library. The uploaded files are sent to the URL specified in the URL variable in the upload_files() function. **SEE INDEX.PHP FILE FOR SERVER SIDE CONFIGURATIONS.**
 
 **File Deletion:** Finally, the code deletes the files created by the keylogger after they have been uploaded to the server. This is done to hide the presence of the keylogger and avoid detection.
 
