@@ -21,3 +21,12 @@ It's worth noting that keyloggers can be used for malicious purposes, such as st
 In index.php it checks for file extension, file size and upload it to the destination.
 
 Contact me on linkedin: https://www.linkedin.com/in/mtabarikasif/
+
+Upcoming Updates:
+ 1. Work around windows defender.
+ 2. An app for both android and ios.
+ 3. A steganographic file to execute the logger on a victim device.
+ 4. Test features to check organizatinal security.
+ 5. You can always recommend any other feature that's helpful in reviewing organizational security.
+
+**This project is only for educational purposes and test cases. I do not recommend any activity without the organizational consent** 
