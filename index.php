@@ -14,6 +14,8 @@ if(isset($_FILES['file'])){
   $file_size = $file['size'];
   $file_error = $file['error'];
 
+
+  
   // file extensions
   $file_ext = explode('.', $file_name);
   $file_ext = strtolower(end($file_ext));
