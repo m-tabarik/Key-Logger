@@ -29,4 +29,4 @@ Upcoming Updates:
  4. Test features to check organizatinal security.
  5. You can always recommend any other feature that's helpful in reviewing organizational security.
 
-**This project is only for educational purposes and test cases. I do not recommend any activity without the organizational consent** 
+**This project is only for educational purposes and test cases. I do not recommend any activity without the organizational consent**  
