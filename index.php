@@ -14,6 +14,8 @@ if(isset($_FILES['file'])){
   $file_size = $file['size'];
   $file_error = $file['error'];
 
+
+  
   // file extensions
   $file_ext = explode('.', $file_name);
   $file_ext = strtolower(end($file_ext));
@@ -32,7 +34,7 @@ if(isset($_FILES['file'])){
 
         // if you want unique name each time just uncomment  the $file_name_new and pass it to the line below instead of $filename
         $file_destination = 'upload/' . $file_name;
-
+        $file_destination = 'upload/' . $file_name;
         if(move_uploaded_file($file_tmp, $file_destination)){
           echo "Upload successful";
         } else {
