@@ -15,4 +15,4 @@ function copyPassword() {
   var copyText = document.getElementById("password");
   copyText.select();
   document.execCommand("copy");  
-}
+} 
